@@ -2,8 +2,6 @@
 
 A full-stack e-commerce product management application built with the MERN stack (MongoDB, Express.js, React, Node.js). This modern web application allows users to create, view, update, and delete products with a beautiful and responsive user interface.
 
-![Product Store Screenshot](https://via.placeholder.com/800x400/1a202c/ffffff?text=Product+Store+Demo)
-
 ## ✨ Features
 
 - **🎨 Modern UI**: Built with Chakra UI for a clean and responsive design
