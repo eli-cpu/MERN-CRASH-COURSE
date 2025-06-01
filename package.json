@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "set NODE_ENV=development && nodemon backend/server.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "build": "npm install && cd frontend && npm install && npm run build",
     "start": "node backend/server.js"
   },
   "type": "module",
@@ -15,7 +15,8 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mongoose": "^8.5.1"
+    "mongoose": "^8.5.1",
+    "vite": "^6.3.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
